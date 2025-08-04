@@ -1,0 +1,4 @@
+So the Binary search pattren mostly works on the sorted type arrays.
+Mostly used for the searching purpose of an element.
+For some problems we can work on answers rather than the elements of the array that's called binary search on answers.
+We basically try to element half of our search based on some conditions we provide 
