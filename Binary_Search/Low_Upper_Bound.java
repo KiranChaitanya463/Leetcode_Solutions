@@ -7,7 +7,7 @@ public class Low_Upper_Bound {
     * this pattren can use in multiple problems
     */
 
-    private int lowerBound(int[] nums, int target){
+    public int lowerBound(int[] nums, int target){
         // assume we return the index it actually if the element exists then it will return the lower bound else the element next to it which comes in order
         int n=nums.length;
         int low=0;
@@ -26,7 +26,7 @@ public class Low_Upper_Bound {
         return ans;
     }
 
-    private int upperBound(int[] nums, int target){
+    public int upperBound(int[] nums, int target){
         // assume we return the index it actually if the element exists then it will return the next to it which comes in order
         int n=nums.length;
         int low=0;
