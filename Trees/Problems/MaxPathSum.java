@@ -4,6 +4,7 @@ import Trees.TreeNode;
 
 public class MaxPathSum {
     // we have to find the maximum sum path no need to return the path but track the max sum
+    // the tree might also contains the negative value nodes
     // while traversing we track the max value and if at any point the sum gets negative we consider that as zero
     // once got through the code and dry run then will understand.
 }
