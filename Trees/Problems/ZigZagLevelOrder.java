@@ -17,7 +17,7 @@ public class ZigZagLevelOrder {
             int levelNum=queue.size();
             LinkedList<Integer> subList=new LinkedList<>();
             for(int i=0;i<levelNum;i++){
-                 TreeNode node = queue.poll(); // remove once, no peek()
+                 TreeNode node = queue.poll(); 
 
                 if (isLeftToRight) {
                     subList.addLast(node.val);
