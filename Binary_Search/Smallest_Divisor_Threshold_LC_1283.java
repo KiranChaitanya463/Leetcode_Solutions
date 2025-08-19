@@ -4,8 +4,6 @@ import java.util.Arrays;
 
 public class Smallest_Divisor_Threshold_LC_1283 {
     
-}
-class Solution {
     public int smallestDivisor(int[] nums, int threshold) {
         int low=1;
         int high=Arrays.stream(nums).max().getAsInt();
