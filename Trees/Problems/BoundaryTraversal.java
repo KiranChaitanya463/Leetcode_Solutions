@@ -18,7 +18,7 @@ import java.util.List;
     }
     }
 
-class Solution {
+class Boundarytraversal {
     // Function to check
     // if a node is a leaf
     boolean isLeaf(Node root) {
@@ -131,7 +131,7 @@ class Solution {
         root.right.left = new Node(6);
         root.right.right = new Node(7);
 
-        Solution solution = new Solution();
+        Boundarytraversal solution = new Boundarytraversal();
 
         // Get the boundary traversal
         List<Integer> result = solution.printBoundary(root);
