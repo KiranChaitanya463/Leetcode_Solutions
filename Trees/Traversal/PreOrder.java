@@ -8,8 +8,6 @@ import Trees.TreeNode;
 
 public class PreOrder{
 
-}
-class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
 
         // recursive
