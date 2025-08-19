@@ -7,10 +7,7 @@ import java.util.Stack;
 import Trees.TreeNode;
 
 public class PostOrder {
-    
-}
 
-class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
 
         // recursive
