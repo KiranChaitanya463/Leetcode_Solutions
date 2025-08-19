@@ -7,8 +7,6 @@ public class MaxPathSum {
     // the tree might also contains the negative value nodes
     // while traversing we track the max value and if at any point the sum gets negative we consider that as zero
     // once got through the code and dry run then will understand.
-}
-class Solution {
     public int maxPathSum(TreeNode root) {
         int[] maxValue=new int[1];
         maxValue[0]=Integer.MIN_VALUE;
