@@ -7,9 +7,6 @@ import Trees.TreeNode;
 
 public class PathFromRootToTarget {
     
-}
-
-class Solution {
     // Function to find the path from the
     // root to a given node with value 'x'
     public boolean getPath(TreeNode root, List<Integer> arr, int x) {
