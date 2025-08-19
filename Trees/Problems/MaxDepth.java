@@ -5,8 +5,6 @@ import Trees.TreeNode;
 
 public class MaxDepth {
     
-}
-class Solution {
     public int maxDepth(TreeNode root) {
 
         // using recursive
