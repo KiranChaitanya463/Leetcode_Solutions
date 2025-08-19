@@ -7,8 +7,6 @@ public class DiameterOfBT {
     // for the brute its like for everynode we find the left longest depth and right longest depth and tracking max
     // for the optimal its like just modifying the max depth by tracking the max depth 
     
-}
-class Solution {
     public int diameterOfBinaryTree(TreeNode root) {
         int[] diameter= new int[1];
         height(root,diameter);
