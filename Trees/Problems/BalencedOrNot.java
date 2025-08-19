@@ -5,8 +5,6 @@ import Trees.TreeNode;
 
 public class BalencedOrNot {
     
-}
-class Solution {
     public boolean isBalanced(TreeNode root) {
         return check(root)!=-1;
     }
