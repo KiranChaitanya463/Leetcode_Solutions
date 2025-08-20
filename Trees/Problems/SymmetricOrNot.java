@@ -6,8 +6,6 @@ import Trees.TreeNode;
 
 public class SymmetricOrNot{
 
-}
-class Solution {
     public boolean isSymmetric(TreeNode root) {
 
         
