@@ -8,9 +8,6 @@ import Trees.TreeNode;
 
 public class LevelOrder {
     
-}
-class Solution {
-
     // BFS Level order
     public List<List<Integer>> levelOrder(TreeNode root) {
         Queue<TreeNode> queue=new LinkedList<>();
