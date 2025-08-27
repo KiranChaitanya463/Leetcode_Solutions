@@ -4,6 +4,8 @@ import Trees.TreeNode;
 
 //lc114
 public class FlattenBTtoLL {
+
+    // check the second method it might be better.
     public void flatten(TreeNode root) {
 
         // so the thing is i tried to create the new nodes and try to attach to the root node
@@ -29,4 +31,16 @@ public class FlattenBTtoLL {
 
         curr.right=right;
     }
+
+    //slightly differnt approach (Strivers)
+
+    // TreeNode prev=null;
+    // public void flatten(TreeNode root) {
+    //     if(root==null) return;
+    //     flatten(root.right);
+    //     flatten(root.left);
+    //     root.right=prev;
+    //     root.left=null;
+    //     prev=root;
+    // }
 }
