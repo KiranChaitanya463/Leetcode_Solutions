@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         int[] nums={5,4,3,2,1,1,2,3,4,5};
-        int n=nums.length;
+        // int n=nums.length;
 
 //        QuickSort quickSort=new QuickSort();
 //        quickSort.qs(nums,0,n-1);
